@@ -5,7 +5,7 @@ This is a demo for channels_redis not closing connections when used together wit
 # Requirements
 
 - redis installed and running
-- reporting open handles needs access to `/proc/self/fd`
+- access to `/proc/self/fd` for reporting open file handles
 
 # Steps
 
